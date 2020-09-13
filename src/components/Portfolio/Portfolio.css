@@ -1,0 +1,190 @@
+.bg-portfolio {
+    
+        background-image: linear-gradient(-60deg, rgb(20, 19, 19) 50%, rgb(10, 11, 12) 50%);
+        bottom:0;
+        left:-50%;
+        opacity:.5;
+        position:fixed;
+        right:-50%;
+        top:0;
+        z-index:-1;
+        animation-name: fadeInLeft;
+        animation-duration: 1.0s;
+    
+
+}
+
+.Portfolio {
+    margin-left: 60px;
+    padding-left: 1em;
+    color: #f1f1f1;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    height: 100vh;
+    animation-name: fadeInLeft;
+    animation-duration: 1.0s;
+    /* background-size: 40px 40px;
+    background-image:
+      linear-gradient(to right, rgb(41, 41, 41) 1px, transparent 1px),
+      linear-gradient(to bottom, rgb(41, 41, 41), transparent 1px);
+    background-repeat: repeat; */
+    /* background: url('http://i.stack.imgur.com/GySvQ.png'); */
+    /* background-repeat: repeat; */
+    overflow-y: scroll;
+}
+
+.Portfolio__Flex {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 1em 0 4em;
+    /* border: 1px solid red; */
+}
+
+.Portfolio__Project {
+    display: flex;
+    flex-flow: column nowrap;
+    /* justify-content: flex-start; */
+    background: #f1f1f1;
+    color: #1f1f1f;
+    border-radius: 0.5em;
+    width: 500px;
+    margin-right: 2em;
+    margin-bottom: 2em;
+}
+
+.Portfolio__Project > h5 {
+    margin-top: -0.5em;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.Portfolio__Project:hover {
+    transform: scale(1.03);
+    transition: 0.3s ease;
+}
+
+.Portfolio__Project__img {
+    border-radius: 0.5em 0.5em 0 0;
+    max-width: 500px;
+    margin-bottom: -1em;
+}
+
+.Portfolio__Project > h3 {
+    font-family: 'Roboto';
+    padding-left: 0.4em;
+    margin-bottom: -0.8em;
+}
+
+.Portfolio__Project__Description {
+    padding: 0 0.5em;
+}
+
+
+.PortDemo {
+    text-decoration: none;
+    color: #07c9ff;
+    font-weight: normal;
+}
+
+.PortDemo:hover {
+    color: #4fe5ff;
+}
+
+@media (max-width: 960px) {
+    .Portfolio {
+        /* margin-left: 0; */
+        margin: 0 0 0 0;
+        /* width: 100%;     */
+        /* max-height: calc(100vh - 60px - 3.5em); */
+        height: 100vh;
+    }
+
+}
+
+@media (max-width: 760px) {
+    .Portfolio__Flex {
+        
+        /* margin-left: 0; */
+        /* border: 1px solid red; */
+        margin: 0 auto 0 auto;
+        padding: 0 0 0 0;
+        /* width: 100vw;     */
+        /* max-height: calc(100vh - 60px - 3.5em); */
+        /* height: 100vh; */
+    }
+
+    .Portfolio__Project {
+        margin: 1em auto;
+    }
+    .Portfolio {
+        /* margin-left: 0; */
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        /* width: 100%;     */
+        /* max-height: calc(100vh - 60px - 3.5em); */
+        height: 100vh;
+    }
+
+}
+
+@media (max-width: 560px) {
+    .Portfolio__Flex {
+        
+        /* margin-left: 0; */
+        /* border: 1px solid red; */
+        margin: 0 auto 0 auto;
+        padding: 0 0 0 0;
+        /* width: 100vw;     */
+        /* max-height: calc(100vh - 60px - 3.5em); */
+        /* height: 100vh; */
+    }
+
+    .Portfolio__Project {
+        margin: 1em auto;
+        width: 100vw
+    }
+    .Portfolio {
+        /* margin-left: 0; */
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        /* width: 100%;     */
+        /* max-height: calc(100vh - 60px - 3.5em); */
+        height: 100vh;
+    }
+    .Portfolio__Project__img {
+        /* width: max-content; */
+        min-width: 100%;
+        height: inherit;
+        /* width: 100vw !important; */
+        /* height: auto; */
+    }
+
+}
+
+@media (max-width: 480px) {
+    h1 {
+        text-align: center;
+    }
+    .Portfolio {
+        margin: 60px 0 0 0;
+        padding: 0 0 0 0;
+        
+    }
+    .Portfolio__Flex {
+        flex-flow: column nowrap;
+        margin: 0 0;
+        padding: 0 0 0 0;
+        max-width: 100%;
+    }
+    .Portfolio__Project {
+        width: 100%;
+        margin-bottom: 1em;
+    }
+
+    .Skills__Front-End, .Skills__Back-End, .Skills__DB {
+        /* padding: 0; */
+        width: 100%;
+        max-width: 100%;
+    }
+}

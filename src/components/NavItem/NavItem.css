@@ -1,0 +1,66 @@
+.Navbar__Menu__Link {
+    width: 60px;
+    height: 60px;
+    /* border: 1px solid blue; */
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    color: #07c9ff;;
+    cursor: pointer;
+    /* align-self: center; */
+}
+
+.NavItem__Text > a {
+    text-decoration: none;
+    color: inherit;
+}
+/* .Navbar__Menu > * {
+    width: 100%;
+} */
+
+
+/* .Navbar__Menu__Link:hover {
+    background: #0e0d0d;
+    transition: 0.3s ease;
+} */
+
+.Navbar__Menu__Link:hover .NavItem__Text {
+    background: #0e0d0d;
+    display: inline;
+    transition: 0.3s ease;
+    opacity: 1;
+
+}
+.Navbar__Menu__Link:hover > *  {
+    display: none;
+    /* opacity: 0; */
+    transition: 0.5s ease;
+}
+
+.NavItem__Text {
+    display: none;
+    position: fixed;
+    /* left: 0.4em;
+    margin-top: -0.8em; */
+    user-select: none;
+    font-size: 0.7em;
+    color: #4fe5ff;
+    /* font-weight: bold; */
+}
+
+.NavItem {
+    box-sizing: border-box;
+    /* border: 1px solid green; */
+    width: 60px;
+    /* height: 60px; */
+}
+/* .NavItem:hover .NavItem__Text {
+    display: inline;
+    transition: 0.3s ease;
+} */
+
+.NavItem:hover > *  {
+    display: none;
+}

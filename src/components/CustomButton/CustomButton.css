@@ -1,0 +1,21 @@
+.CustomButton {
+    max-width: 150px;
+    background: #00bef3;
+    color: #f1f1f1;
+    font-family: 'Roboto';
+    border: none;
+    border-radius: 0.4em;
+    padding: 0.5em;
+    font-size: 1.1em;
+    /* font-weight: bold; */
+    cursor: pointer;
+}
+
+.CustomButton:hover {
+    background: #0da4ce;
+    transition: 0.3s ease;
+}
+
+.CustomButton:focus {
+    outline: none;
+}

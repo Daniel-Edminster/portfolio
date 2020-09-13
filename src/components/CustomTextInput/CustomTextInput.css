@@ -1,0 +1,18 @@
+.CustomTextInput {
+    font-family: 'Roboto';
+    font-size: 1.1em;
+    border: 1px solid #494949;
+    padding: 0.3em;
+    border-radius: 0.4em;
+    width: 140px;
+    margin-bottom: 0.2em;
+}
+.CustomTextInput:focus {
+    outline: none;
+    border: 1px solid #61dafb;
+    transition: 0.3s ease;
+}
+
+.double {
+    width: 292px !important;
+}
