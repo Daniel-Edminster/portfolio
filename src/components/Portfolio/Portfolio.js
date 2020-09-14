@@ -7,6 +7,7 @@ import gob from '../../img/gob.PNG';
 import tnc from '../../img/tnc.PNG';
 import unsplash from '../../img/unsplash.png';
 import dex from '../../img/dex.png';
+import reactlibrary from '../../img/reactlibrary.png'
 
 class Portfolio extends Component {
     render() {
@@ -53,6 +54,14 @@ class Portfolio extends Component {
                         <h3>EnDever</h3>
                         <p className="Portfolio__Project__Description">I built a React front-end to EnDever, a tinder-like application for connecting with other developers. Also made contributions to the Github Single Sign on feature.</p>
                         <h5>Availability: <a href="https://agitated-panini-b410aa.netlify.app/" className="PortDemo">Demo</a> | <a href="https://github.com/digitalfences/EnDeverFrontEnd" className="PortDemo">GitHub</a></h5> 
+                        </div>
+
+                        <div className="Portfolio__Project">
+                            <img className="Portfolio__Project__img" src={reactlibrary} />
+
+                        <h3>React Component Library</h3>
+                        <p className="Portfolio__Project__Description">I built out a variety of reusable stateful and functional components using React.js from an Adobe XD documents and made them all accessible through a storybook library.</p>
+                        <h5>Availability: <a href="https://danieledminster.com/react-library" className="PortDemo">Demo</a> | <a href="https://github.com/Daniel-Edminster/React-Component-Library" className="PortDemo">GitHub</a></h5> 
                         </div>
                         
                         <div className="Portfolio__Project">
