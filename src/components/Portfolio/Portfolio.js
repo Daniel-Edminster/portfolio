@@ -4,6 +4,7 @@ import './Portfolio.css';
 import '../../animate.css';
 import endever from '../../img/endever.gif';
 import gob from '../../img/gob.PNG';
+import gob2 from '../../img/gob2.png';
 import tnc from '../../img/tnc.PNG';
 import unsplash from '../../img/unsplash.png';
 import dex from '../../img/dex.png';
@@ -31,7 +32,7 @@ class Portfolio extends Component {
                     <div className="Portfolio__Flex animate__animated animate__backInLeft">
                     
                         <div className="Portfolio__Project">
-                            <img className="Portfolio__Project__img" src={gob} />
+                            <img className="Portfolio__Project__img" src={gob2} />
 
                         <h3>Game of Bands</h3>
                         <p className="Portfolio__Project__Description">The Game of Bands website is a full CRUD application secured with Reddit single sign on, built with MongoDB, Express.js, React.js, and Node.js</p>
