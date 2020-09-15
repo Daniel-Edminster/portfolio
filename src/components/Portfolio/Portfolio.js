@@ -9,6 +9,7 @@ import tnc from '../../img/tnc.PNG';
 import unsplash from '../../img/unsplash.png';
 import dex from '../../img/dex.png';
 import reactlibrary from '../../img/reactlibrary.png'
+import hangman from '../../img/hangman.png';
 
 class Portfolio extends Component {
     render() {
@@ -64,7 +65,15 @@ class Portfolio extends Component {
                         <p className="Portfolio__Project__Description">I built out a variety of reusable stateful and functional components using React.js from an Adobe XD documents and made them all accessible through a storybook library.</p>
                         <h5>Availability: <a href="https://danieledminster.com/react-library" className="PortDemo">Demo</a> | <a href="https://github.com/Daniel-Edminster/React-Component-Library" className="PortDemo">GitHub</a></h5> 
                         </div>
-                        
+
+                        <div className="Portfolio__Project">
+                            <img className="Portfolio__Project__img" src={hangman} />
+
+                        <h3>Hangman Game</h3>
+                        <p className="Portfolio__Project__Description">I programmed a Hangman game using ASCII art in vanilla JavaScript, HTML, and CSS. Switchable to a Harry Potter theme.  </p>
+                        <h5>Availability: <a href="https://daniel-edminster.github.io/ga-hangman-game/index.html" className="PortDemo">Demo</a> | <a href="https://github.com/Daniel-Edminster/ga-hangman-game" className="PortDemo">GitHub</a></h5> 
+                        </div>
+
                         <div className="Portfolio__Project">
                             <img className="Portfolio__Project__img" src={dex} />
 
@@ -73,12 +82,6 @@ class Portfolio extends Component {
                         <h5>Availability: <a href="https://daniel-edminster.github.io/ga-ui-pattern/" className="PortDemo">Demo</a> | <a href="https://github.com/daniel-edminster/ga-ui-pattern" className="PortDemo">GitHub</a></h5> 
                         </div>
 
-                        {/* <div className="Portfolio__Project">
-                            <img className="Portfolio__Project__img" src="https://via.placeholder.com/300x200.png" />
-
-                        <h3>React Component Library</h3>
-                        <p className="Portfolio__Project__Description">I created a full Component Library in React.js from an AdobeXD mockup of an E-commerce website. Features form elements, icons, and product boxes. </p>
-                        </div> */}
 
                         <div className="Portfolio__Project">
                             <img className="Portfolio__Project__img" src={unsplash} />

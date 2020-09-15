@@ -28,7 +28,7 @@ class App extends Component {
   }
 
   componentDidMount(){
-      this.initializeAnalytics('UA-31888622-1');
+      this.initializeAnalytics(process.env.REACT_APP_GKEY);
 
   }
   render() {
