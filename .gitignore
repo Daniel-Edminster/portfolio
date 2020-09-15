@@ -106,3 +106,5 @@ dist
 
 # build
 build/
+# deploy
+deploy.sh
