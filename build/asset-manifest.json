@@ -1,25 +1,26 @@
 {
   "files": {
     "main.css": "/static/css/main.ba9189bf.chunk.css",
-    "main.js": "/static/js/main.588639f4.chunk.js",
-    "main.js.map": "/static/js/main.588639f4.chunk.js.map",
+    "main.js": "/static/js/main.dd8e4446.chunk.js",
+    "main.js.map": "/static/js/main.dd8e4446.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b5cbf1d0.js",
     "runtime-main.js.map": "/static/js/runtime-main.b5cbf1d0.js.map",
     "static/css/2.52f2db83.chunk.css": "/static/css/2.52f2db83.chunk.css",
-    "static/js/2.8fc7c95a.chunk.js": "/static/js/2.8fc7c95a.chunk.js",
-    "static/js/2.8fc7c95a.chunk.js.map": "/static/js/2.8fc7c95a.chunk.js.map",
+    "static/js/2.e2f131b8.chunk.js": "/static/js/2.e2f131b8.chunk.js",
+    "static/js/2.e2f131b8.chunk.js.map": "/static/js/2.e2f131b8.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.0e705685a07a995a4b08b1419097a59d.js": "/precache-manifest.0e705685a07a995a4b08b1419097a59d.js",
+    "precache-manifest.3c914449329917792d9df9159bc74850.js": "/precache-manifest.3c914449329917792d9df9159bc74850.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.52f2db83.chunk.css.map": "/static/css/2.52f2db83.chunk.css.map",
     "static/css/main.ba9189bf.chunk.css.map": "/static/css/main.ba9189bf.chunk.css.map",
-    "static/js/2.8fc7c95a.chunk.js.LICENSE.txt": "/static/js/2.8fc7c95a.chunk.js.LICENSE.txt",
+    "static/js/2.e2f131b8.chunk.js.LICENSE.txt": "/static/js/2.e2f131b8.chunk.js.LICENSE.txt",
     "static/media/1squared_small.jpg": "/static/media/1squared_small.f3c1ae79.jpg",
     "static/media/Daniel_Edminster_CV_9_20.pdf": "/static/media/Daniel_Edminster_CV_9_20.128ff1df.pdf",
     "static/media/PortfolioCard.png": "/static/media/PortfolioCard.5ffa487a.png",
     "static/media/dex.png": "/static/media/dex.aa965982.png",
     "static/media/endever.gif": "/static/media/endever.0f4050cb.gif",
     "static/media/gob.PNG": "/static/media/gob.e4be3844.PNG",
+    "static/media/gob2.png": "/static/media/gob2.f5770ed5.png",
     "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg",
     "static/media/reactlibrary.png": "/static/media/reactlibrary.39331f71.png",
     "static/media/tnc.PNG": "/static/media/tnc.73ff629a.PNG",
@@ -28,8 +29,8 @@
   "entrypoints": [
     "static/js/runtime-main.b5cbf1d0.js",
     "static/css/2.52f2db83.chunk.css",
-    "static/js/2.8fc7c95a.chunk.js",
+    "static/js/2.e2f131b8.chunk.js",
     "static/css/main.ba9189bf.chunk.css",
-    "static/js/main.588639f4.chunk.js"
+    "static/js/main.dd8e4446.chunk.js"
   ]
 }
